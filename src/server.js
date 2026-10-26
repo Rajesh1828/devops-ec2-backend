@@ -16,7 +16,7 @@ app.get("/",(req,res)=>{
 })
 
 app.get("/api/health",(req,res)=>{
-    res.send("Hello from API");
+    res.send("Hello from API Health");
 })
 
 app.get("/api/users",(req,res)=>{
